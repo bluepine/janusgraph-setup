@@ -1,6 +1,6 @@
-docker build --rm -t local:janusgraph bigdata-janusgraph
+docker build --rm -t local:janusgraph janusgraph
 docker images; docker ps -a
-docker build --rm -t local:cassandra bigdata-cassandra
+docker build --rm -t local:cassandra cassandra
 docker images; docker ps -a
-docker build --rm -t local:elasticsearch bigdata-elasticsearch
+docker build --rm -t local:elasticsearch elasticsearch
 docker images; docker ps -a

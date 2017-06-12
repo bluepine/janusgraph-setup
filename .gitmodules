@@ -1,0 +1,9 @@
+[submodule "janusgraph"]
+	path = janusgraph
+	url = git@github.com:bluepine/bigdata-janusgraph.git
+[submodule "elasticsearch"]
+	path = elasticsearch
+	url = git@github.com:bluepine/bigdata-elasticsearch.git
+[submodule "cassandra"]
+	path = cassandra
+	url = git@github.com:bluepine/bigdata-cassandra.git

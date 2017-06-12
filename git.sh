@@ -1,4 +1,4 @@
-for i in bigdata-cassandra  bigdata-elasticsearch  bigdata-janusgraph; do
+for i in cassandra  elasticsearch  janusgraph; do
     cd $i;
     "$@"
     cd ..
