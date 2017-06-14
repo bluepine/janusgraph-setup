@@ -1,6 +1,7 @@
 #!/bin/bash
 set -x
 bash ./stop.sh
+docker pull bluepine/bigdata-alpine-base
 bash ./build.sh
 docker network rm janus
 docker network create --driver bridge janus
